@@ -1,0 +1,25 @@
+﻿@font-face {
+    font-family: 'Console';
+    src: url('font/TerminalVector.ttf') format('truetype');
+}
+a {
+    color:#c0c0c0;
+    text-decoration:none;
+}
+
+body {
+    font-family: 'Console';
+    background-color:black;
+    color:#c0c0c0;
+}
+ul {
+    list-style-type: none;
+}
+span {
+    
+    color: #c0c0c0
+}
+li > span:hover , a:hover{
+    background-color:#c0c0c0;
+    color:black;
+}
