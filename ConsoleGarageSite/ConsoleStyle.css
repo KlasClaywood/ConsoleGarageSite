@@ -23,3 +23,7 @@ li > span:hover , a:hover{
     background-color:#c0c0c0;
     color:black;
 }
+footer{
+    position:absolute;
+    bottom:0px;
+}
