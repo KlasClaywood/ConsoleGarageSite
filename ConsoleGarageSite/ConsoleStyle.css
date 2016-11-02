@@ -1,32 +1,34 @@
-﻿@font-face {
+﻿@font-face{
     font-family: 'Console';
     src: url('font/TerminalVector.ttf') format('truetype');
 }
-a {
+a{
     color:#c0c0c0;
     text-decoration:none;
 }
 
-body {
+body{
     font-family: 'Console';
     font-size:1em;
     background-color:darkgray;
     color:#c0c0c0;
     margin:0px;
 }
-ul {
+ul{
     list-style-type: none;
 }
-span {
+span{
     
     color: #c0c0c0
 }
-.black {
-    color:black;
+.black{
+    
+    
 }
-li > span:hover , a:hover{
+a:hover, a:focus{
     background-color:#c0c0c0;
     color:black;
+    outline:none;
 }
 footer{
     position:absolute;
@@ -36,6 +38,8 @@ footer{
 article{
     float:left;
     position:relative;
+    white-space:pre;
+    margin-left:1ex;
 }
 .poundSign{
     min-width:26em;
