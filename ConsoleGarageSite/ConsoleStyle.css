@@ -55,6 +55,8 @@ article{
     min-height:4em;
 }
 #back{
+    overflow-y: auto;
+    overflow-x: hidden;
     position:relative;
     padding-top:33px;
     padding-left:10px;
